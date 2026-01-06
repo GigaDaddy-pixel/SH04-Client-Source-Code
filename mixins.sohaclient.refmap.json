@@ -1,0 +1,121 @@
+{
+  "mappings": {
+    "studio/dreamys/mixin/client/MixinMovementInputFromOptions": {
+      "updatePlayerMoveState": "Lnet/minecraft/util/MovementInputFromOptions;func_78898_a()V"
+    },
+    "studio/dreamys/mixin/client/MixinItemRenderer": {
+      "renderItemInFirstPerson": "Lnet/minecraft/client/renderer/ItemRenderer;func_78440_a(F)V"
+    },
+    "studio/dreamys/mixin/client/MixinEntityPlayerSP": {
+      "onLivingUpdate": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70636_d()V",
+      "onUpdateWalkingPlayer": "Lnet/minecraft/client/entity/EntityPlayerSP;func_175161_p()V",
+      "setSprinting": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70031_b(Z)V",
+      "onUpdate": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70071_h_()V",
+      "Lnet/minecraft/util/MovementInput;updatePlayerMoveState()V": "Lnet/minecraft/util/MovementInput;func_78898_a()V"
+    },
+    "studio/dreamys/mixin/client/MixinRendererLivingEntity": {
+      "canRenderName": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_177070_b(Lnet/minecraft/entity/EntityLivingBase;)Z"
+    },
+    "studio/dreamys/mixin/client/MixinRenderManager": {
+      "doRenderEntity": "Lnet/minecraft/client/renderer/entity/RenderManager;func_147939_a(Lnet/minecraft/entity/Entity;DDDFFZ)Z"
+    },
+    "studio/dreamys/mixin/client/MixinMinecraft": {
+      "createDisplay": "Lnet/minecraft/client/Minecraft;func_175609_am()V"
+    },
+    "studio/dreamys/mixin/accessors/IEntityLivingBase": {
+      "jumpTicks": "field_70773_bE:I"
+    },
+    "studio/dreamys/mixin/client/MixinEntityRenderer": {
+      "getMouseOver": "Lnet/minecraft/client/renderer/EntityRenderer;func_78473_a(F)V",
+      "Lnet/minecraft/client/multiplayer/PlayerControllerMP;getBlockReachDistance()F": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78757_d()F"
+    },
+    "studio/dreamys/mixin/accessors/IMinecraft": {
+      "rightClickDelayTimer": "field_71467_ac:I",
+      "leftClickCounter": "field_71429_W:I"
+    },
+    "studio/dreamys/mixin/client/MixinNetworkManager": {
+      "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+      "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    }
+  },
+  "data": {
+    "notch": {
+      "studio/dreamys/mixin/client/MixinMovementInputFromOptions": {
+        "updatePlayerMoveState": "Lbev;a()V"
+      },
+      "studio/dreamys/mixin/client/MixinItemRenderer": {
+        "renderItemInFirstPerson": "Lbfn;a(F)V"
+      },
+      "studio/dreamys/mixin/client/MixinEntityPlayerSP": {
+        "onLivingUpdate": "Lbew;m()V",
+        "onUpdateWalkingPlayer": "Lbew;p()V",
+        "setSprinting": "Lbew;d(Z)V",
+        "onUpdate": "Lbew;t_()V",
+        "Lnet/minecraft/util/MovementInput;updatePlayerMoveState()V": "Lbeu;a()V"
+      },
+      "studio/dreamys/mixin/client/MixinRendererLivingEntity": {
+        "canRenderName": "Lbjl;a(Lpr;)Z"
+      },
+      "studio/dreamys/mixin/client/MixinRenderManager": {
+        "doRenderEntity": "Lbiu;a(Lpk;DDDFFZ)Z"
+      },
+      "studio/dreamys/mixin/client/MixinMinecraft": {
+        "createDisplay": "Lave;ap()V"
+      },
+      "studio/dreamys/mixin/accessors/IEntityLivingBase": {
+        "jumpTicks": "bn:I"
+      },
+      "studio/dreamys/mixin/client/MixinEntityRenderer": {
+        "getMouseOver": "Lbfk;a(F)V",
+        "Lnet/minecraft/client/multiplayer/PlayerControllerMP;getBlockReachDistance()F": "Lbda;d()F"
+      },
+      "studio/dreamys/mixin/accessors/IMinecraft": {
+        "rightClickDelayTimer": "ap:I",
+        "leftClickCounter": "ag:I"
+      },
+      "studio/dreamys/mixin/client/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lek;a(Lff;)V",
+        "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V": "Lek;a(Lio/netty/channel/ChannelHandlerContext;Lff;)V"
+      }
+    },
+    "searge": {
+      "studio/dreamys/mixin/client/MixinMovementInputFromOptions": {
+        "updatePlayerMoveState": "Lnet/minecraft/util/MovementInputFromOptions;func_78898_a()V"
+      },
+      "studio/dreamys/mixin/client/MixinItemRenderer": {
+        "renderItemInFirstPerson": "Lnet/minecraft/client/renderer/ItemRenderer;func_78440_a(F)V"
+      },
+      "studio/dreamys/mixin/client/MixinEntityPlayerSP": {
+        "onLivingUpdate": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70636_d()V",
+        "onUpdateWalkingPlayer": "Lnet/minecraft/client/entity/EntityPlayerSP;func_175161_p()V",
+        "setSprinting": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70031_b(Z)V",
+        "onUpdate": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70071_h_()V",
+        "Lnet/minecraft/util/MovementInput;updatePlayerMoveState()V": "Lnet/minecraft/util/MovementInput;func_78898_a()V"
+      },
+      "studio/dreamys/mixin/client/MixinRendererLivingEntity": {
+        "canRenderName": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_177070_b(Lnet/minecraft/entity/EntityLivingBase;)Z"
+      },
+      "studio/dreamys/mixin/client/MixinRenderManager": {
+        "doRenderEntity": "Lnet/minecraft/client/renderer/entity/RenderManager;func_147939_a(Lnet/minecraft/entity/Entity;DDDFFZ)Z"
+      },
+      "studio/dreamys/mixin/client/MixinMinecraft": {
+        "createDisplay": "Lnet/minecraft/client/Minecraft;func_175609_am()V"
+      },
+      "studio/dreamys/mixin/accessors/IEntityLivingBase": {
+        "jumpTicks": "field_70773_bE:I"
+      },
+      "studio/dreamys/mixin/client/MixinEntityRenderer": {
+        "getMouseOver": "Lnet/minecraft/client/renderer/EntityRenderer;func_78473_a(F)V",
+        "Lnet/minecraft/client/multiplayer/PlayerControllerMP;getBlockReachDistance()F": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78757_d()F"
+      },
+      "studio/dreamys/mixin/accessors/IMinecraft": {
+        "rightClickDelayTimer": "field_71467_ac:I",
+        "leftClickCounter": "field_71429_W:I"
+      },
+      "studio/dreamys/mixin/client/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+        "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      }
+    }
+  }
+}

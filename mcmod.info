@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "sohaclient",
+    "name": "S0H4 Client",
+    "description": "Example placeholder mod.",
+    "version": "1.0",
+    "mcversion": "1.8.9",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["ExampleDude", "dxxxxy"],
+    "credits": "The Forge and FML guys.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
